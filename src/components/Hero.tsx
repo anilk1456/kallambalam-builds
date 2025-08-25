@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle, Star } from 'lucide-react';
+import fbcLogo from '@/assets/fbc-logo.png';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -81,12 +82,12 @@ const Hero = () => {
           {/* Logo/Visual */}
           <div className="flex justify-center lg:justify-end fade-in-up">
             <div className="relative">
-              <div className="w-80 h-80 md:w-96 md:h-96 gradient-primary rounded-full flex items-center justify-center shadow-large pulse-glow">
-                <div className="text-primary-foreground text-center">
-                  <div className="text-8xl md:text-9xl font-bold mb-4">F</div>
-                  <div className="text-2xl font-semibold tracking-wide">BC</div>
-                  <div className="text-lg opacity-80 mt-2">DEVELOPERS</div>
-                </div>
+              <div className="w-80 h-80 md:w-96 md:h-96 gradient-primary rounded-full flex items-center justify-center shadow-large pulse-glow p-8">
+                <img 
+                  src={fbcLogo} 
+                  alt="FBC Developers Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               
               {/* Floating elements */}

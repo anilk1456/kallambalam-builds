@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail } from "lucide-react";
+import fbcLogo from '@/assets/fbc-logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,9 +24,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 gradient-hero rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">F</span>
-            </div>
+            <img 
+              src={fbcLogo} 
+              alt="FBC Developers Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <div>
               <h1 className="text-xl font-bold text-secondary">FBC DEVELOPERS</h1>
               <p className="text-xs text-muted-foreground">Quality You Can Build On</p>

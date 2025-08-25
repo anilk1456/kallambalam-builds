@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Instagram, Heart } from 'lucide-react';
+import fbcLogo from '@/assets/fbc-logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,9 +12,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">F</span>
-              </div>
+              <img 
+                src={fbcLogo} 
+                alt="FBC Developers Logo" 
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <h3 className="text-2xl font-bold">FBC DEVELOPERS</h3>
                 <p className="text-sm opacity-80">Quality You Can Build On</p>
