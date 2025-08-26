@@ -20,7 +20,7 @@ const Hero = () => {
           alt="Construction buildings background" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/20"></div>
       </div>
 
       <div className="container mx-auto px-4 py-20 relative z-10">
