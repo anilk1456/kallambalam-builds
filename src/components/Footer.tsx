@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Instagram, Heart } from 'lucide-react';
-import fbcLogo from '@/assets/fbc-logo.png';
+const fbcLogo = '/lovable-uploads/b2b1b1c3-cf75-499b-b980-4ae7cacaa988.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

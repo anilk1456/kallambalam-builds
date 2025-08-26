@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail } from "lucide-react";
-import fbcLogo from '@/assets/fbc-logo.png';
+const fbcLogo = '/lovable-uploads/b2b1b1c3-cf75-499b-b980-4ae7cacaa988.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
