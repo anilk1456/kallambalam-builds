@@ -8,7 +8,13 @@ import {
   PaintBucket, 
   Wrench, 
   Shield,
-  ArrowRight 
+  ArrowRight,
+  Ruler,
+  MapPin,
+  HardHat,
+  Zap,
+  Droplets,
+  Trees
 } from 'lucide-react';
 import residential1 from '@/assets/residential-1.jpg';
 import residential2 from '@/assets/residential-2.jpg';
@@ -22,6 +28,18 @@ import maintenance1 from '@/assets/maintenance-1.jpg';
 import maintenance2 from '@/assets/maintenance-2.jpg';
 import quality1 from '@/assets/quality-1.jpg';
 import quality2 from '@/assets/quality-2.jpg';
+import architecture1 from '@/assets/architecture-1.jpg';
+import architecture2 from '@/assets/architecture-2.jpg';
+import sitePrep1 from '@/assets/site-prep-1.jpg';
+import sitePrep2 from '@/assets/site-prep-2.jpg';
+import civilEngineering1 from '@/assets/civil-engineering-1.jpg';
+import civilEngineering2 from '@/assets/civil-engineering-2.jpg';
+import electrical1 from '@/assets/electrical-1.jpg';
+import electrical2 from '@/assets/electrical-2.jpg';
+import plumbing1 from '@/assets/plumbing-1.jpg';
+import plumbing2 from '@/assets/plumbing-2.jpg';
+import landscaping1 from '@/assets/landscaping-1.jpg';
+import landscaping2 from '@/assets/landscaping-2.jpg';
 import servicesBg1 from '@/assets/services-bg-1.jpg';
 import servicesBg2 from '@/assets/services-bg-2.jpg';
 
@@ -68,6 +86,48 @@ const Services = () => {
       description: "Comprehensive quality control and assurance throughout every phase of construction.",
       features: ["Regular Inspections", "Quality Materials", "Safety Protocols", "Warranty Coverage"],
       images: [quality1, quality2]
+    },
+    {
+      icon: Ruler,
+      title: "Architectural Design",
+      description: "Professional architectural design services from concept to detailed blueprints.",
+      features: ["3D Modeling", "Blueprint Design", "Structural Planning", "Building Permits"],
+      images: [architecture1, architecture2]
+    },
+    {
+      icon: MapPin,
+      title: "Site Preparation",
+      description: "Complete site preparation including land clearing, excavation, and foundation work.",
+      features: ["Land Surveying", "Excavation", "Foundation Work", "Soil Testing"],
+      images: [sitePrep1, sitePrep2]
+    },
+    {
+      icon: HardHat,
+      title: "Civil Engineering",
+      description: "Professional civil engineering services for structural design and infrastructure development.",
+      features: ["Structural Analysis", "Foundation Design", "Infrastructure Planning", "Safety Calculations"],
+      images: [civilEngineering1, civilEngineering2]
+    },
+    {
+      icon: Zap,
+      title: "Electrical Services",
+      description: "Complete electrical installation and maintenance for residential and commercial properties.",
+      features: ["Wiring Installation", "LED Lighting", "Smart Home Systems", "Safety Inspections"],
+      images: [electrical1, electrical2]
+    },
+    {
+      icon: Droplets,
+      title: "Plumbing Services",
+      description: "Professional plumbing installation and maintenance for all your water and drainage needs.",
+      features: ["Pipe Installation", "Fixture Setup", "Drainage Systems", "Emergency Repairs"],
+      images: [plumbing1, plumbing2]
+    },
+    {
+      icon: Trees,
+      title: "Landscaping & Gardens",
+      description: "Beautiful landscaping and garden design to complement your property's architecture.",
+      features: ["Garden Design", "Plant Selection", "Irrigation Systems", "Outdoor Lighting"],
+      images: [landscaping1, landscaping2]
     }
   ];
 
